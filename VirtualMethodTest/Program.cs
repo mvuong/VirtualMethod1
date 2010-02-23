@@ -23,6 +23,9 @@ namespace VirtualMethodTest
             p = new GrandGrandChild();
             p.Print();
 
+            Console.WriteLine("What's your name?");
+            var name = Console.ReadLine();
+
             Console.ReadKey();
         }
     }
